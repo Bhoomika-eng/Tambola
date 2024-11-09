@@ -1,0 +1,8 @@
+.help{
+  position: fixed;
+  margin-left: 92%;
+  background-color: rgb(195, 114, 114);
+  padding: 10px 25px;
+  margin-top:500px;
+  border-radius: 20px;
+}

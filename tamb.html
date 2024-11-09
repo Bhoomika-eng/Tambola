@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tambola</title>
+    <link rel="stylesheet" href="styles/sideL.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebarR.css">
+    <link rel="stylesheet" href="styles/help.css">
+  </head>
+  <body>
+    <div class="sidebarL">
+      <button 
+        class="generate" tabindex="0">Generate
+      </button>
+      <p class="number"></p>
+      <button onclick="resetBoard()" class="Reset">Reset board</button>
+      <div id="Full" class="fullMessage"></div>
+    </div>
+
+    <!--<button class="help">Help</button> -->
+    <div class="main">
+      <p class="heading">Tambola Numbers Generator</p>
+      <div id="grid">
+      </div>
+    </div>
+    <div class="sideR">
+      <p class="Text">Last 5 Numbers</p>
+      <div id="Sidenos"> 
+      </div>
+    </div>
+    <script src="javaScript/grid.js"></script>
+    <script src="javaScript/sideR.js"></script>
+    <script src="javaScript/sideL.js"></script>
+  </body>
+</html>

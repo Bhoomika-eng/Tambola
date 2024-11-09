@@ -1,0 +1,43 @@
+.sidebarL{
+  position: fixed;
+  top: 120px;
+  width:150px;
+  height: 200px;
+  margin-left: 40px;
+  border-width: 20px;
+  border-color:chartreuse;
+  background-color:rgb(126, 114, 137) ;
+  border-right: 60px;
+}
+.generate{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor:pointer;
+}
+.number{
+  position: fixed;
+  top:150px;
+  height: 70px;
+  width: 60px;
+  margin-left: 25px;
+  background-color: rgb(253, 195, 195);
+  color:brown;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-top:40px ;
+}
+.Reset{
+  color:red;
+  margin-top: 170px;
+  padding:12px 25px;
+  margin-left: 10px;
+}
+.fullMessage{
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 25px;
+  color: red;
+}

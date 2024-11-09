@@ -1,0 +1,29 @@
+.main{
+  margin-left: 300px;
+}
+.heading{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+}
+#grid{
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(10,40px);
+  gap:10px;
+}
+#grid div {
+  display: flex;
+  width:40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ac3e3e; /* Creates a box around each number */
+  /*background-color: #c620f9; *//* Default background color */
+  border-radius: 5px; /* Optional: Rounded corners */
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+.newbox{
+  background-color: red;
+}

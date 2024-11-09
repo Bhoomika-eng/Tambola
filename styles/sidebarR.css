@@ -1,0 +1,35 @@
+.sideR{
+  display: flex;
+  position: fixed;
+  top:100px;
+  margin-left: 950px;
+  margin-right: 0;
+  width:300px;
+  height: 400px;
+  flex-direction: column;
+  font-size:smaller;
+  gap: 15px;
+ /* background-color: aquamarine;*/
+}
+.Text{
+  font-size: 25px;
+  font-weight: 400;
+}
+#Sidenos{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  padding-left:22px ;
+}
+#Sidenos div {
+  display: flex;
+  width:120px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ac3e3e; /* Creates a box around each number */
+  /*background-color: #c620f9; *//* Default background color */
+  border-radius: 25px; /* Optional: Rounded corners */
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
